@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Robotics Prototyping Club",
+    "name": "Alex Knox | Portfolio Website",
     "label": "WPI Student Organization",
     "picture": "https://github.com/wpi-rpc.png",
-    "email": "rpc-exec@wpi.edu",
+    "email": "aaknox@wpi.edu",
     "phone": "",
-    "website": "https://wpi-rpc.github.io",
+    "website": "https://alexlikethelibrary.github.io",
     "summary": "We're a group of students from Worcester Polytechnic Institute (WPI), Massachusetts, that put our maker skills towards specialized robotics projects! All in the name of fostering a community around clean hobbyist robotics done right.",
     "location": { "address": "100 Institute Rd", "postalCode": "01609", "city": "Worcester", "countryCode": "USA", "region": "Massachusetts" },
     "profiles": [
-      { "network": "github", "username": "wpi-rpc", "url": "https://github.com/wpi-rpc" },
+      { "network": "github", "username": "alexlikethelibrary", "url": "https://github.com/alexlikethelibrary" },
       { "network": "mywpi", "username": "Robotics Prototyping Club", "url": "https://mywpi.wpi.edu/RPC/club_signup" },
       { "network": "instagram", "username": "wpi_rpc", "url": "https://instagram.com/wpi_rpc/" }
     ],
@@ -21,9 +21,7 @@
   "interests": [
     { "name": "Robotics" },
     { "name": "3D Printing" },
-    { "name": "Embedded Computing" },
-    { "name": "Computer Vision" },
-    { "name": "Machine Learning" }
+    { "name": "Combat Robotics" }
   ],
   "skills": [
     {
@@ -38,7 +36,7 @@
   "education": [
     {
       "institution": "Worcester Polytechnic Institute, Worcester, MA",
-      "area": "Robotics Engineering (expected Spring, 2025)",
+      "area": "Robotics Engineering (expected Spring, 2027)",
       "studyType": "B.S.",
       "startDate": "2021-08-24",
       "endDate": "Present",
