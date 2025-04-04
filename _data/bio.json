@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alex Knox | Portfolio Website",
-    "label": "WPI Student Organization",
-    "picture": "https://github.com/wpi-rpc.png",
+    "label": "RBE Sophomore",
+    "picture": "https://github.com/alexlikethelibrary.png",
     "email": "aaknox@wpi.edu",
     "phone": "",
     "website": "https://alexlikethelibrary.github.io",
-    "summary": "We're a group of students from Worcester Polytechnic Institute (WPI), Massachusetts, that put our maker skills towards specialized robotics projects! All in the name of fostering a community around clean hobbyist robotics done right.",
+    "summary": "Student at Worcester Polytechnic Institute (WPI), currently pursuing a bachelor's in Robotics Engineering. Currently on WPI's Combat Robotics Team and in High Powered Rocketry. I'm working on creating my first website through Github",
     "location": { "address": "100 Institute Rd", "postalCode": "01609", "city": "Worcester", "countryCode": "USA", "region": "Massachusetts" },
     "profiles": [
       { "network": "github", "username": "alexlikethelibrary", "url": "https://github.com/alexlikethelibrary" },
@@ -18,10 +18,10 @@
       { "network": "twitter", "username": "N/A", "url": "http://twitter.com/changeme" }
     ]
   },
-  "interests": [
-    { "name": "Robotics" },
-    { "name": "3D Printing" },
-    { "name": "Combat Robotics" }
+  "Status": [
+    { "name": "Currently updating this website" },
+    { "name": "most of the information here is from the template," },
+    { "name": "not me!" }
   ],
   "skills": [
     {
