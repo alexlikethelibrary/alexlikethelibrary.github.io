@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Script</title>
+    <style>
+      body {
+        background: linear-gradient(lightskyblue, plum);
+        min-height: 100vh;
+        font-family: "Courier New", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My First Script</h1>
+    <p id="greeting"></p>
+       <button onclick="changeSky()">Darker Sky</button>
+    <p>Everything on this page so far was written by hand. Time to make the page write something itself.</p>
+    <img src="/neocities.png" alt="The Neocities cat" onclick="petCat()">
+    <p>Cat pets: <span id="pet-count">0</span></p>
+    <p id="cat-mood"></p>
+    <p>Today is <span id="today"></span>.</p>
+    <script>
+    var greeting_list = ["Hello", "Hewwo", "•w•"]
+    var greeting = greeting_list[Math.floor(Math.random() * greeting_list.length)]
+    var night = false
+      document.getElementById('greeting').textContent = greeting
+      function changeSky() {
+        document.body.style.minHeight = '100vh'
+        if (night) {
+            document.body.style.background = 'linear-gradient(lightskyblue, plum)'
+            document.body.style.color = 'black'
+            night = false
+          } else {
+            document.body.style.background = 'linear-gradient(midnightblue, black)'
+            document.body.style.color = 'white'
+            night = true
+          }
+      }
+      var pets = 0
+      function petCat() {
+        pets = pets + 1
+        if (pets >= 10) {
+          document.getElementById('cat-mood').textContent = 'purrrrrr...'
+        }
+        document.getElementById('pet-count').textContent = pets
+      }
+      var today = new Date()
+      document.getElementById('today').textContent = today.toDateString()
+    </script>
+    
+    <p> Return <a href="index.html">Home </a> </p>
+  </body>
+</html>
